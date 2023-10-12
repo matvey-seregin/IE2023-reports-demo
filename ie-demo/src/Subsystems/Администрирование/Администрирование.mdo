@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9233322b-dfdb-4c66-91fe-1299292d40a5">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Администрирование, настройка, сервисные функции</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделАдминистрирование</picture>
+  </picture>
+  <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.НастройкиПользователей</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Catalog.ВнешниеПользователи</content>
+  <content>Catalog.ГруппыВнешнихПользователей</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>Catalog.ВариантыОтчетов</content>
+  <content>CommonPicture.РазделАдминистрирование48</content>
+  <content>Catalog.РассылкиОтчетов</content>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>CommonForm.ПараметрыПроксиСервера</content>
+  <content>DataProcessor.РезультатыОбновленияПрограммы</content>
+  <content>Report.СведенияОПользователях</content>
+  <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
+  <content>DataProcessor.ПоискИУдалениеДублей</content>
+  <content>Report.ПрогрессОтложенногоОбновления</content>
+  <content>Report.УниверсальныйОтчет</content>
+  <content>CommonForm.Расширения</content>
+  <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>CommonForm.НастройкиВходаПользователей</content>
+  <content>DataProcessor.ПодключениеОбсуждений</content>
+  <content>Report.ИспользуемыеВнешниеРесурсы</content>
+  <content>CommonForm.ВосстановлениеПаролей</content>
+  <content>Report.ДлительностьОтложенногоОбновления</content>
+</mdclass:Subsystem>

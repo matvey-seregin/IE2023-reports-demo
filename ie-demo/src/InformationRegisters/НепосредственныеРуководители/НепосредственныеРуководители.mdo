@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715633a0-9f0c-47c1-94c1-35ba9be99fcd">
+  <producedTypes>
+    <selectionType typeId="48f57acd-ba58-4ea7-8d0f-c6e97a3e8a85" valueTypeId="a1cb9c2e-d5f6-4e82-9bff-70375f7b27fc"/>
+    <listType typeId="7f1c0206-d5d0-42e0-9f14-f0b995f3c992" valueTypeId="fae2ce9c-7e96-46df-89ba-80a0f1c1e2ef"/>
+    <managerType typeId="2b0559fb-083f-4b8d-aae9-7f9c7f0cf460" valueTypeId="f7e70834-b56a-4eb6-9a4f-500631535107"/>
+    <recordSetType typeId="8e7a0f6a-b822-47d7-a2d5-7c725129d824" valueTypeId="bce3411d-771c-4bb1-a5d3-2ebdd4a8ea8e"/>
+    <recordKeyType typeId="e66ddae3-85fc-4d43-ab58-1ef3ef271f98" valueTypeId="34628cd1-42de-429e-8289-52ece1a3d0ca"/>
+    <recordType typeId="0532ac15-c18d-46a1-ad29-66811b8f4bf4" valueTypeId="67476525-0654-47e7-9b4b-95a577f51659"/>
+    <recordManagerType typeId="8bad774a-7754-4f65-abda-03235b817a01" valueTypeId="ce70a0c6-5914-4701-8bbb-bf21d63f0df2"/>
+  </producedTypes>
+  <name>НепосредственныеРуководители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Непосредственные руководители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2f3db715-4b9e-4b1b-b4eb-0b2296fbbbaf">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e11a74f4-e82c-48a5-b303-d8a4288aa7cf">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

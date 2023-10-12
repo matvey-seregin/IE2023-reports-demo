@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.СрезНаКаждуюДату</subsystems>
+    <subsystems>Subsystem.ВычисляемыеПоля</subsystems>
+    <subsystems>Subsystem.ПараметрыВвода</subsystems>
+    <subsystems>Subsystem.АгрегатныеФункции</subsystems>
+    <subsystems>Subsystem.УниверсальныйОтчет</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>
