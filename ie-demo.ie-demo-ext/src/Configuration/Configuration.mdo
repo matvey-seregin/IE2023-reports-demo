@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="977a5819-6d66-4d97-8fdc-e5f43022b7cb">
+  <name>РИ_КонтрагентыСОтветственными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение инфостарт2023</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="55b8dba3-d290-4b51-8efb-fffc6340acc8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d679089f-4592-4071-8990-a7805d47d146"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="efc3e6dd-6cc0-44f2-b695-4695865bb5f1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5c13c0d6-2f74-4cdb-af6b-f78552405b2c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0422408b-a748-4830-b1ad-5d1ce5585e91"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6adb4240-fccb-49e4-a354-efb6a5820124"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2f22eb47-3167-4252-9855-be25e67dda4e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>РИ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="7dc6361b-37c2-42cb-af3d-fdfb5ab4b8d2" extendedConfigurationObject="61f41264-0c86-4de6-b414-9b2412b11ad9">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.РИ_Характеристики</subsystems>
+  <commonPictures>CommonPicture.МетаданныеОтчеты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПланыВидовХарактеристик</commonPictures>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.РИ_Роли</catalogs>
+  <reports>Report.РИ_КонтрагентыСОтветственными</reports>
+  <informationRegisters>InformationRegister.РИ_РолиКонтактныхЛиц</informationRegisters>
+</mdclass:Configuration>

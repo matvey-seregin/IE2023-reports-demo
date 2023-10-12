@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab0f2b64-4053-45e1-b099-abf1b992b49e">
+  <producedTypes>
+    <selectionType typeId="9bce4174-e1ff-431c-9d88-78634f34de6a" valueTypeId="7c9b446e-f3c3-40e6-a77c-7338376c002d"/>
+    <listType typeId="4ed9c449-93ee-4848-be78-a36cfd932f41" valueTypeId="b660f84c-ca08-42b3-827e-604e5d0e2a60"/>
+    <managerType typeId="cd027a99-084d-492c-b4e8-8aa8f70824db" valueTypeId="7b6c5d82-a34e-4f99-aad8-6337cc6db158"/>
+    <recordSetType typeId="22b12245-57d0-4d1b-b7c9-8b922279c0ca" valueTypeId="ead3f880-1c07-4133-9f2b-73394f1af2b5"/>
+    <recordKeyType typeId="f7e94975-e27e-47be-93ee-923833b16e4c" valueTypeId="a99d7feb-aff5-47f3-8cc5-9a8a308ec8c5"/>
+    <recordType typeId="07432b2d-20a9-4c0b-884d-e18f1f704b66" valueTypeId="cd800014-58f8-4c64-baea-180717771e30"/>
+    <recordManagerType typeId="b685a7f4-eec7-4194-ad9d-363de3befc85" valueTypeId="3339a7cb-b8ee-45ef-9d89-6bd7151a62fc"/>
+  </producedTypes>
+  <name>РИ_РолиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f97c46a7-ffc4-4d6f-bc02-e5a12f7b4b54">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d65444d-c1fe-42be-a881-86e238ff0a85">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b364aaea-8d61-47a2-9297-211fc0e88871">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РИ_Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

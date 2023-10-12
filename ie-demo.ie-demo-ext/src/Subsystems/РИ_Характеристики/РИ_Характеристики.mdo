@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88b0d3d6-c5fb-4889-9cef-92232f7ca8c6">
+  <name>РИ_Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МетаданныеПланыВидовХарактеристик</picture>
+  </picture>
+  <content>InformationRegister.РИ_РолиКонтактныхЛиц</content>
+  <content>Report.РИ_КонтрагентыСОтветственными</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.РИ_Роли</content>
+  <content>CommonPicture.МетаданныеОтчеты</content>
+  <content>CommonPicture.МетаданныеПланыВидовХарактеристик</content>
+</mdclass:Subsystem>
